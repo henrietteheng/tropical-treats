@@ -1,0 +1,246 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+h1 {text-align:center;}
+div.a {
+    text-align: center;
+}
+.footer {
+    padding: 5px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightsteelblue;
+    color: white;
+    text-align: center;
+}
+.bg {
+
+    background-image: url("images/baked-goods-bakery-bread-192933.jpg")/*https://www.pexels.com/photo/bacon-rosemart-192933/*/;
+
+    height: 90%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ /*Navigation bar*/
+.navigation {
+    overflow: hidden;
+    background-color: #e6e6e6;
+}
+
+
+.navigation a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+}
+
+.navigation a.right {
+    float: right;
+}
+
+.navigation a:hover {
+    background-color: #ddd;
+    color: white;
+}
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+div.gallery {
+    margin: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 320px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+body, html {
+    height: 100%;
+}
+
+/* about image */
+.about-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/baked-bakery-baking-230743.jpg");
+
+
+    height: 50%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.about-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: darkgrey;
+}
+/*Button on image*/
+.container {
+
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 25px;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+.container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #657;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.container .btn:hover {
+    background-color: black;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row > .column {
+    padding: 0 8px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+/*form text*/
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+rcorners {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+div.quote {
+    text-align: center;
+    color: darkcyan;
+
+}

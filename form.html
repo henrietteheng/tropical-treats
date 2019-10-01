@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tropical Treats</title>
+    <link href="Tropical.css" rel="stylesheet" type ="text/css">
+    <link rel="icon" href="images/Celebration_cake_cupcake_food_muffin-512.png" alt="https://www.clipartmax.com/middle/m2i8N4K9H7G6d3N4_cupcake-i-free-icon-muffin-svg/" type="image" sizes="16x16">
+    <script type="text/javascript" src="./formjs.js" ></script>v
+</head>
+<div class="bg"></div>
+
+<div class="navigation">
+    <a href="Index.html">Home</a>
+    <a href="AboutMe.html">About</a>
+    <a href="Menu.html">Menu</a>
+    <a href="Specials.html">Specials</a>
+
+</div>
+
+
+    <body>
+
+    <form name = "newsForm" action="action_page.php" onsubmit ="return validateForm()" method="post">
+
+    <h1>Tell us who you are: </h1>
+    <div>
+        <label for="name">First name: </label>
+        <input type="text" name="name" id="name">
+    </div>
+
+    <div>
+        <label for = "lname"> Last name: </label>
+        <input type="text" name = "lname" id ="lname">
+    </div>
+    <div>
+        <label for="mail">Mail: </label>
+        <input type="text" name="mail" id="mail">
+    </div>
+    <div>
+        <label for="bday">Birth date(dd/mm/yyyy): </label>
+        <input type="text" name="bday" id="bday">
+    </div>
+
+    <p> Which of these do you like the most? </p>
+    <input type="checkbox" name = "interests[]" value="Cherry Ripe slice" id = "cherry Ripe slice"/><label for ="Cherry Ripe slice"> Cherry Ripe Slice</label> <br/>
+    <input type="checkbox" name = "interests[]" value="caramelSlice" id = "caramelSlice"/><label for ="caramelSlice"> Caramel slice</label> <br/>
+    <input type="checkbox" name = "interests[]" value="ChocolateChip" id = "ChocolateChip"/><label for ="ChocolateChip"> Chocolate chip muffin</label> <br/>
+    <input type="checkbox" name = "interests[]" value="BlueberryMuffin" id = "BlueberryMuffin"/><label for ="BlueberryMuffin"> Blueberry muffin</label> <br/>
+
+
+    <input type="submit" value="Submit">
+
+</form>
+<script src ="fromjs.js"></script>
+</body>
+
+</html>
+
+
